@@ -6,7 +6,7 @@ class Navbar extends Component {
     return (
       <div id="navContainer">
         <div id="brand">
-          <span>Just Notes</span>
+          <a href="/">Just Notes</a>
         </div>
         <div id="searchbar">
           <div id="searchForm">
