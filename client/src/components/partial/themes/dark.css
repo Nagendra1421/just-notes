@@ -14,7 +14,7 @@
 body {
     background-color: #fafafa;
     font-family: 'Open Sans', sans-serif;
-    background-image: 
+    /* background-image: 
         -webkit-linear-gradient(rgba(0,0,0,.04) 2px, transparent 0);
     background-image:  
         -moz-linear-gradient(rgba(0,0,0,.04) 2px, transparent 0);
@@ -26,5 +26,5 @@ body {
         -moz-background-size: 100% 2em;
     background-image: 
         linear-gradient(rgba(0,0,0,.04) 2px, transparent 0);
-    background-size: 100% 2em;
+    background-size: 100% 2em; */
 }
