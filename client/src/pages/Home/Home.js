@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from "react";
-import Navbar from "../../components/partial/Navbar/navbar.js";
+import Navbar from "../../components/partial/Navbar2";
 import LeftMenu from "../../components/partial/LeftMenu/leftMenu";
 import NoteCard from "../../components/NoteCard/noteCard";
 
