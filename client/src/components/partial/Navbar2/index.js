@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import "./navbar.css";
+import Drop from '../dropdown';
+import SettingMenu from '../settings-menu';
 
 const Btn = ({classes, children, ...props}) => (
   <button type="button" className={classes} {...props}>{children}</button>
@@ -57,9 +59,9 @@ export default class Navbar extends Component {
           <button type="button" className="nav-btn cta">
             <i className="fas fa-plus fa-lg" /> CREATE NEW
           </button>
-          <button type="button" className="nav-btn">
-            <i className="fas fa-cog fa-lg" />
-          </button>
+          <Drop triger="nav-btn" icon="fas fa-cog fa-lg" right>
+            <SettingMenu option="drop-item" />
+          </Drop>
         </div>
         <BottomBar toggleForm={this.toggleForm} />
       </nav>
