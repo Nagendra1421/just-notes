@@ -14,7 +14,7 @@ const Brand = ({full}) => (
 )
 const BottomBar = ({toggleForm}) => (
   <div className="bottom-bar">
-    <Btn classes="bar-btn"><i className="fas fa-search" onClick={toggleForm} /></Btn>
+    <Btn classes="bar-btn" onClick={toggleForm}><i className="fas fa-search" /></Btn>
     <Btn classes="bar-btn cta"><i className="fas fa-plus" /></Btn>
     <Btn classes="bar-btn"><i className="fas fa-cog" /></Btn>
   </div>
